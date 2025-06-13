@@ -1,0 +1,78 @@
+/* Reset & global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+/* Main container */
+.episodesContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Main Body content container */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Header */
+.series-title {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem;
+  background-color: #222;
+  border-bottom: 2px solid #444;
+}
+
+/* Episode list Container */
+.episodes-list {
+  width: 50%;
+  padding: 1rem;
+  border-right: 1px solid #333;
+  overflow-y: auto;
+}
+
+.episodes-list h1 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  
+}
+
+.episodes-list h1:hover {
+  color: #ffcc00;
+}
+
+/* Chosen episode content */
+.chosen-episode-content {
+  width: 50%;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.chosen-episode-content h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.chosen-episode-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.chosen-episode-content button {
+  padding: 0.5rem 1rem;
+  background-color: #ffcc00;
+  border: none;
+  font-weight: bold;
+  color: #111;
+}
